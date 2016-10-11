@@ -28,8 +28,9 @@ const (
 )
 
 // Markdown saves 'Proto' to markdown documentation.
+// depth is how many levels the output path is from the root
 // lopts are a slice of language options (C++, Java, Python, Go, Ruby, C#).
-func (p *Proto) Markdown(title string, parseOpts []ParseOption, lopts ...string) (string, error) {
+func (p *Proto) Markdown(title string, parseOpts []ParseOption, depth int, lopts ...string) (string, error) {
 	p.Sort()
 
 	buf := new(bytes.Buffer)
@@ -41,7 +42,16 @@ func (p *Proto) Markdown(title string, parseOpts []ParseOption, lopts ...string)
 		switch opt {
 		case ParseService:
 			for _, svs := range p.Services {
-				buf.WriteString(fmt.Sprintf("##### service `%s` (%s)\n\n", svs.Name, svs.FilePath))
+				fpath := ""
+				s := ""
+				// Add the appropriate number of `..` to get
+				// back to root to allow relative links
+				// to work.
+				for i := 0; i < depth; i++ {
+					s += "../"
+				}
+				fpath = s + svs.FilePath
+				buf.WriteString(fmt.Sprintf("##### service `%s` ([%s](%s))\n\n", svs.Name, svs.FilePath, fpath))
 				if svs.Description != "" {
 					buf.WriteString(svs.Description)
 					buf.WriteString("\n\n")
@@ -65,7 +75,16 @@ func (p *Proto) Markdown(title string, parseOpts []ParseOption, lopts ...string)
 
 		case ParseMessage:
 			for _, msg := range p.Messages {
-				buf.WriteString(fmt.Sprintf("##### message `%s` (%s)\n\n", msg.Name, msg.FilePath))
+				fpath := ""
+				s := ""
+				// Add the appropriate number of `..` to get
+				// back to root to allow relative links
+				// to work.
+				for i := 0; i < depth; i++ {
+					s += "../"
+				}
+				fpath = s + msg.FilePath
+				buf.WriteString(fmt.Sprintf("##### service `%s` ([%s](%s))\n\n", msg.Name, msg.FilePath, fpath))
 				if msg.Description != "" {
 					buf.WriteString(msg.Description)
 					buf.WriteString("\n\n")

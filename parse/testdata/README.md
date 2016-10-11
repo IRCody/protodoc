@@ -1,10 +1,7 @@
-this is test...
-
-
 ### etcdserverpb
 
 
-##### service `Auth` (testdata/rpc.proto)
+##### service `Auth` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Method | Request Type | Response Type | Description |
 | ------ | ------------ | ------------- | ----------- |
@@ -25,7 +22,7 @@ this is test...
 
 
 
-##### service `Cluster` (testdata/rpc.proto)
+##### service `Cluster` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Method | Request Type | Response Type | Description |
 | ------ | ------------ | ------------- | ----------- |
@@ -36,7 +33,7 @@ this is test...
 
 
 
-##### service `KV` (testdata/rpc.proto)
+##### service `KV` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 for grpc-gateway
 
@@ -50,7 +47,7 @@ for grpc-gateway
 
 
 
-##### service `Lease` (testdata/rpc.proto)
+##### service `Lease` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Method | Request Type | Response Type | Description |
 | ------ | ------------ | ------------- | ----------- |
@@ -60,7 +57,7 @@ for grpc-gateway
 
 
 
-##### service `Maintenance` (testdata/rpc.proto)
+##### service `Maintenance` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Method | Request Type | Response Type | Description |
 | ------ | ------------ | ------------- | ----------- |
@@ -72,7 +69,7 @@ for grpc-gateway
 
 
 
-##### service `Watch` (testdata/rpc.proto)
+##### service `Watch` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Method | Request Type | Response Type | Description |
 | ------ | ------------ | ------------- | ----------- |
@@ -80,7 +77,7 @@ for grpc-gateway
 
 
 
-##### message `AlarmMember` (testdata/rpc.proto)
+##### service `AlarmMember` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -89,7 +86,7 @@ for grpc-gateway
 
 
 
-##### message `AlarmRequest` (testdata/rpc.proto)
+##### service `AlarmRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 default, used to query if any alarm is active space quota is exhausted
 
@@ -101,7 +98,7 @@ default, used to query if any alarm is active space quota is exhausted
 
 
 
-##### message `AlarmResponse` (testdata/rpc.proto)
+##### service `AlarmResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -110,13 +107,13 @@ default, used to query if any alarm is active space quota is exhausted
 
 
 
-##### message `AuthDisableRequest` (testdata/rpc.proto)
+##### service `AuthDisableRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 Empty field.
 
 
 
-##### message `AuthDisableResponse` (testdata/rpc.proto)
+##### service `AuthDisableResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -124,13 +121,13 @@ Empty field.
 
 
 
-##### message `AuthEnableRequest` (testdata/rpc.proto)
+##### service `AuthEnableRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 Empty field.
 
 
 
-##### message `AuthEnableResponse` (testdata/rpc.proto)
+##### service `AuthEnableResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -138,7 +135,7 @@ Empty field.
 
 
 
-##### message `AuthRoleAddRequest` (testdata/rpc.proto)
+##### service `AuthRoleAddRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -146,7 +143,7 @@ Empty field.
 
 
 
-##### message `AuthRoleAddResponse` (testdata/rpc.proto)
+##### service `AuthRoleAddResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -154,7 +151,7 @@ Empty field.
 
 
 
-##### message `AuthRoleDeleteRequest` (testdata/rpc.proto)
+##### service `AuthRoleDeleteRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -162,7 +159,7 @@ Empty field.
 
 
 
-##### message `AuthRoleDeleteResponse` (testdata/rpc.proto)
+##### service `AuthRoleDeleteResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -170,7 +167,7 @@ Empty field.
 
 
 
-##### message `AuthRoleGetRequest` (testdata/rpc.proto)
+##### service `AuthRoleGetRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -178,7 +175,7 @@ Empty field.
 
 
 
-##### message `AuthRoleGetResponse` (testdata/rpc.proto)
+##### service `AuthRoleGetResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -187,7 +184,7 @@ Empty field.
 
 
 
-##### message `AuthRoleGrantPermissionRequest` (testdata/rpc.proto)
+##### service `AuthRoleGrantPermissionRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -196,7 +193,7 @@ Empty field.
 
 
 
-##### message `AuthRoleGrantPermissionResponse` (testdata/rpc.proto)
+##### service `AuthRoleGrantPermissionResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -204,7 +201,7 @@ Empty field.
 
 
 
-##### message `AuthRoleRevokePermissionRequest` (testdata/rpc.proto)
+##### service `AuthRoleRevokePermissionRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -214,7 +211,7 @@ Empty field.
 
 
 
-##### message `AuthRoleRevokePermissionResponse` (testdata/rpc.proto)
+##### service `AuthRoleRevokePermissionResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -222,7 +219,7 @@ Empty field.
 
 
 
-##### message `AuthUserAddRequest` (testdata/rpc.proto)
+##### service `AuthUserAddRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -231,7 +228,7 @@ Empty field.
 
 
 
-##### message `AuthUserAddResponse` (testdata/rpc.proto)
+##### service `AuthUserAddResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -239,7 +236,7 @@ Empty field.
 
 
 
-##### message `AuthUserChangePasswordRequest` (testdata/rpc.proto)
+##### service `AuthUserChangePasswordRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -248,7 +245,7 @@ Empty field.
 
 
 
-##### message `AuthUserChangePasswordResponse` (testdata/rpc.proto)
+##### service `AuthUserChangePasswordResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -256,7 +253,7 @@ Empty field.
 
 
 
-##### message `AuthUserDeleteRequest` (testdata/rpc.proto)
+##### service `AuthUserDeleteRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -264,7 +261,7 @@ Empty field.
 
 
 
-##### message `AuthUserDeleteResponse` (testdata/rpc.proto)
+##### service `AuthUserDeleteResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -272,7 +269,7 @@ Empty field.
 
 
 
-##### message `AuthUserGetRequest` (testdata/rpc.proto)
+##### service `AuthUserGetRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -280,7 +277,7 @@ Empty field.
 
 
 
-##### message `AuthUserGetResponse` (testdata/rpc.proto)
+##### service `AuthUserGetResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -289,7 +286,7 @@ Empty field.
 
 
 
-##### message `AuthUserGrantRoleRequest` (testdata/rpc.proto)
+##### service `AuthUserGrantRoleRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -298,7 +295,7 @@ Empty field.
 
 
 
-##### message `AuthUserGrantRoleResponse` (testdata/rpc.proto)
+##### service `AuthUserGrantRoleResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -306,7 +303,7 @@ Empty field.
 
 
 
-##### message `AuthUserRevokeRoleRequest` (testdata/rpc.proto)
+##### service `AuthUserRevokeRoleRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -315,7 +312,7 @@ Empty field.
 
 
 
-##### message `AuthUserRevokeRoleResponse` (testdata/rpc.proto)
+##### service `AuthUserRevokeRoleResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -323,7 +320,7 @@ Empty field.
 
 
 
-##### message `AuthenticateRequest` (testdata/rpc.proto)
+##### service `AuthenticateRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -332,7 +329,7 @@ Empty field.
 
 
 
-##### message `AuthenticateResponse` (testdata/rpc.proto)
+##### service `AuthenticateResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -341,7 +338,7 @@ Empty field.
 
 
 
-##### message `CompactionRequest` (testdata/rpc.proto)
+##### service `CompactionRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 CompactionRequest compacts the key-value store up to a given revision. All superseded keys with a revision less than the compaction revision will be removed.
 
@@ -352,7 +349,7 @@ CompactionRequest compacts the key-value store up to a given revision. All super
 
 
 
-##### message `CompactionResponse` (testdata/rpc.proto)
+##### service `CompactionResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -360,7 +357,7 @@ CompactionRequest compacts the key-value store up to a given revision. All super
 
 
 
-##### message `Compare` (testdata/rpc.proto)
+##### service `Compare` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -375,13 +372,13 @@ CompactionRequest compacts the key-value store up to a given revision. All super
 
 
 
-##### message `DefragmentRequest` (testdata/rpc.proto)
+##### service `DefragmentRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 Empty field.
 
 
 
-##### message `DefragmentResponse` (testdata/rpc.proto)
+##### service `DefragmentResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -389,7 +386,7 @@ Empty field.
 
 
 
-##### message `DeleteRangeRequest` (testdata/rpc.proto)
+##### service `DeleteRangeRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -398,7 +395,7 @@ Empty field.
 
 
 
-##### message `DeleteRangeResponse` (testdata/rpc.proto)
+##### service `DeleteRangeResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -407,19 +404,19 @@ Empty field.
 
 
 
-##### message `EmptyResponse` (testdata/raft_internal.proto)
+##### service `EmptyResponse` ([testdata/raft_internal.proto](../testdata/raft_internal.proto))
 
 Empty field.
 
 
 
-##### message `HashRequest` (testdata/rpc.proto)
+##### service `HashRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 Empty field.
 
 
 
-##### message `HashResponse` (testdata/rpc.proto)
+##### service `HashResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -428,7 +425,7 @@ Empty field.
 
 
 
-##### message `InternalAuthenticateRequest` (testdata/raft_internal.proto)
+##### service `InternalAuthenticateRequest` ([testdata/raft_internal.proto](../testdata/raft_internal.proto))
 
 What is the difference between AuthenticateRequest (defined in rpc.proto) and InternalAuthenticateRequest? InternalAuthenticateRequest has a member that is filled by etcdserver and shouldn't be user-facing. For avoiding misusage the field, we have an internal version of AuthenticateRequest.
 
@@ -440,7 +437,7 @@ What is the difference between AuthenticateRequest (defined in rpc.proto) and In
 
 
 
-##### message `InternalRaftRequest` (testdata/raft_internal.proto)
+##### service `InternalRaftRequest` ([testdata/raft_internal.proto](../testdata/raft_internal.proto))
 
 An InternalRaftRequest is the union of all requests which can be sent via raft.
 
@@ -474,7 +471,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `LeaseGrantRequest` (testdata/rpc.proto)
+##### service `LeaseGrantRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -483,7 +480,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `LeaseGrantResponse` (testdata/rpc.proto)
+##### service `LeaseGrantResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -494,7 +491,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `LeaseKeepAliveRequest` (testdata/rpc.proto)
+##### service `LeaseKeepAliveRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -502,7 +499,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `LeaseKeepAliveResponse` (testdata/rpc.proto)
+##### service `LeaseKeepAliveResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -512,7 +509,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `LeaseRevokeRequest` (testdata/rpc.proto)
+##### service `LeaseRevokeRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -520,7 +517,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `LeaseRevokeResponse` (testdata/rpc.proto)
+##### service `LeaseRevokeResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -528,7 +525,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `Member` (testdata/rpc.proto)
+##### service `Member` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -539,7 +536,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `MemberAddRequest` (testdata/rpc.proto)
+##### service `MemberAddRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -547,7 +544,7 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `MemberAddResponse` (testdata/rpc.proto)
+##### service `MemberAddResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -556,13 +553,13 @@ An InternalRaftRequest is the union of all requests which can be sent via raft.
 
 
 
-##### message `MemberListRequest` (testdata/rpc.proto)
+##### service `MemberListRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 Empty field.
 
 
 
-##### message `MemberListResponse` (testdata/rpc.proto)
+##### service `MemberListResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -571,7 +568,7 @@ Empty field.
 
 
 
-##### message `MemberRemoveRequest` (testdata/rpc.proto)
+##### service `MemberRemoveRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -579,7 +576,7 @@ Empty field.
 
 
 
-##### message `MemberRemoveResponse` (testdata/rpc.proto)
+##### service `MemberRemoveResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -587,7 +584,7 @@ Empty field.
 
 
 
-##### message `MemberUpdateRequest` (testdata/rpc.proto)
+##### service `MemberUpdateRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -596,7 +593,7 @@ Empty field.
 
 
 
-##### message `MemberUpdateResponse` (testdata/rpc.proto)
+##### service `MemberUpdateResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -604,7 +601,7 @@ Empty field.
 
 
 
-##### message `Metadata` (testdata/etcdserver.proto)
+##### service `Metadata` ([testdata/etcdserver.proto](../testdata/etcdserver.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -613,7 +610,7 @@ Empty field.
 
 
 
-##### message `PutRequest` (testdata/rpc.proto)
+##### service `PutRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -623,7 +620,7 @@ Empty field.
 
 
 
-##### message `PutResponse` (testdata/rpc.proto)
+##### service `PutResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -631,7 +628,7 @@ Empty field.
 
 
 
-##### message `RangeRequest` (testdata/rpc.proto)
+##### service `RangeRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -645,7 +642,7 @@ Empty field.
 
 
 
-##### message `RangeResponse` (testdata/rpc.proto)
+##### service `RangeResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -655,7 +652,7 @@ Empty field.
 
 
 
-##### message `Request` (testdata/etcdserver.proto)
+##### service `Request` ([testdata/etcdserver.proto](../testdata/etcdserver.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -679,7 +676,7 @@ Empty field.
 
 
 
-##### message `RequestHeader` (testdata/raft_internal.proto)
+##### service `RequestHeader` ([testdata/raft_internal.proto](../testdata/raft_internal.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -688,7 +685,7 @@ Empty field.
 
 
 
-##### message `RequestOp` (testdata/rpc.proto)
+##### service `RequestOp` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -699,7 +696,7 @@ Empty field.
 
 
 
-##### message `ResponseHeader` (testdata/rpc.proto)
+##### service `ResponseHeader` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -710,7 +707,7 @@ Empty field.
 
 
 
-##### message `ResponseOp` (testdata/rpc.proto)
+##### service `ResponseOp` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -721,13 +718,13 @@ Empty field.
 
 
 
-##### message `SnapshotRequest` (testdata/rpc.proto)
+##### service `SnapshotRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 Empty field.
 
 
 
-##### message `SnapshotResponse` (testdata/rpc.proto)
+##### service `SnapshotResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -737,13 +734,13 @@ Empty field.
 
 
 
-##### message `StatusRequest` (testdata/rpc.proto)
+##### service `StatusRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 Empty field.
 
 
 
-##### message `StatusResponse` (testdata/rpc.proto)
+##### service `StatusResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -756,7 +753,7 @@ Empty field.
 
 
 
-##### message `TxnRequest` (testdata/rpc.proto)
+##### service `TxnRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 From google paxosdb paper: Our implementation hinges around a powerful primitive which we call MultiOp. All other database operations except for iteration are implemented as a single call to MultiOp. A MultiOp is applied atomically and consists of three components: 1. A list of tests called guard. Each test in guard checks a single entry in the database. It may check for the absence or presence of a value, or compare with a given value. Two different tests in the guard may apply to the same or different entries in the database. All tests in the guard are applied and MultiOp returns the results. If all tests are true, MultiOp executes t op (see item 2 below), otherwise it executes f op (see item 3 below). 2. A list of database operations called t op. Each operation in the list is either an insert, delete, or lookup operation, and applies to a single database entry. Two different operations in the list may apply to the same or different entries in the database. These operations are executed if guard evaluates to true. 3. A list of database operations called f op. Like t op, but executed if guard evaluates to false.
 
@@ -768,7 +765,7 @@ From google paxosdb paper: Our implementation hinges around a powerful primitive
 
 
 
-##### message `TxnResponse` (testdata/rpc.proto)
+##### service `TxnResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -778,7 +775,7 @@ From google paxosdb paper: Our implementation hinges around a powerful primitive
 
 
 
-##### message `WatchCancelRequest` (testdata/rpc.proto)
+##### service `WatchCancelRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -786,7 +783,7 @@ From google paxosdb paper: Our implementation hinges around a powerful primitive
 
 
 
-##### message `WatchCreateRequest` (testdata/rpc.proto)
+##### service `WatchCreateRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -797,7 +794,7 @@ From google paxosdb paper: Our implementation hinges around a powerful primitive
 
 
 
-##### message `WatchRequest` (testdata/rpc.proto)
+##### service `WatchRequest` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |
@@ -807,7 +804,7 @@ From google paxosdb paper: Our implementation hinges around a powerful primitive
 
 
 
-##### message `WatchResponse` (testdata/rpc.proto)
+##### service `WatchResponse` ([testdata/rpc.proto](../testdata/rpc.proto))
 
 | Field | Description | Type | Go | Java | Python | C++ |
 | ----- | ----------- | ---- | --- | ---- | ------ | --- |

@@ -14,17 +14,22 @@
 
 package parse
 
-import "testing"
+import (
+	"strings"
+	"testing"
+)
 
 func TestMarkdown(t *testing.T) {
 	proto, err := ReadDir("testdata", "")
 	if err != nil {
 		t.Fatal(err)
 	}
-	if txt, err := proto.Markdown("etcdserverpb", []ParseOption{ParseService, ParseMessage}, "Go", "Java", "Python", "C++"); err != nil {
+	outputPath := "testdata/README.md"
+	depth := strings.Count(strings.TrimLeft(outputPath, "./"), "/")
+	if txt, err := proto.Markdown("etcdserverpb", []ParseOption{ParseService, ParseMessage}, depth, "Go", "Java", "Python", "C++"); err != nil {
 		t.Fatal(err)
 	} else {
-		err = toFile(txt, "testdata/README.md")
+		err = toFile(txt, outputPath)
 		if err != nil {
 			t.Fatal(err)
 		}
